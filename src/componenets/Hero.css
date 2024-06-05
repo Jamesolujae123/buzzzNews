@@ -1,0 +1,55 @@
+.nws-cont {
+    display: flex;
+position: relative;
+}
+
+.main-nws{
+    position: relative;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    width: 900px;
+    left: 20px;
+}
+
+.news-Pic {
+    width: 400px;
+}
+
+.other-nws {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    position: absolute;
+    height: max-content;
+    background-color: pink;
+    width: 300px;
+    left: 1050px;
+    padding-inline: 30px;
+    padding-block: 20px;
+}
+
+.nw-news {
+    display: flex;
+    gap: 10px;
+    border: 1px gray;
+    width: max-content;
+    border-bottom-style: solid;
+    margin-bottom: 20px;
+}
+
+.nw-news-pic{
+    width: 150px;
+    height: 100px;
+}
+
+.pic-cont {
+    width: 100px;
+}
+
+.ting {
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid gray;
+
+}
